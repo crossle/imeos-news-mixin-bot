@@ -5,10 +5,10 @@ import (
 	"encoding/base64"
 	"log"
 
+	bot "github.com/MixinNetwork/bot-api-go-client"
 	"github.com/crossle/imeos-news-mixin-bot/config"
 	"github.com/crossle/imeos-news-mixin-bot/models"
 	"github.com/jasonlvhit/gocron"
-	bot "github.com/mixinmessenger/bot-api-go-client"
 )
 
 type NewsService struct{}
